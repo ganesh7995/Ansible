@@ -1,0 +1,21 @@
+- FirstName: Gunda
+  LastName: Ganesh
+  DOB: 23-04-1999
+  Addresses:
+  - Type: Perm
+    DoorNo: 4-62/2
+    Street: Gollawada
+  - Type: Current
+    DoorNo: 1-1
+    Street: AMR Nagar  
+
+- FirstName: Ragula
+  LastName: Naresh
+  DOB: 27-07-1999
+  Addresses:
+  - Type: Perm
+    DoorNo: 4-62/2
+    Street: Gollawada
+  - Type: Current
+    DoorNo: 1-1
+    Street: AMR Nagar 

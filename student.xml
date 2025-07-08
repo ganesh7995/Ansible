@@ -1,0 +1,16 @@
+<student>
+    <firstname>Ganesh</fistname>
+    <lastname>Gunda</lastname>
+    <DOB>23-04-1999</DOB>
+    <Addesses>
+        <PermAddress></PermAddress>
+            <DoorNo>4-62/2</DoorNo>
+            <Street>Gollawada</Street>
+        <CurrentAddress>
+            <DoorNo>1-1</DoorNo>
+            <Street>AMR Nagar</Street>
+        </CurrentAddress>
+    
+    </Addesses>
+
+</student>

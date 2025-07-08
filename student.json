@@ -1,0 +1,19 @@
+{
+    "FirstName":"Ganesh",
+    "LastName":"Gunda",
+    "DOB":"23-04-199",
+    "Addresses":[
+        {
+            "Type":"Perm",
+            "DoorNo":"4-62/2",
+            "Street":"GollaWada"
+        },
+        {
+            "Type":"Temp",
+            "DoorNo":"1-1",
+            "Street":"AMR Nagar"
+        }
+
+    ]
+
+}
