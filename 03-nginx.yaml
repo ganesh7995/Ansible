@@ -2,7 +2,7 @@
   host: frontend
   become: yes #sudo access
   tasks:
-  - name: Install nginx
+  - name: install nginx
     ansible.builtin.package:
       name: nginx
       state: present
