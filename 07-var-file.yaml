@@ -2,7 +2,8 @@
   hosts: local
   connection: local
   vars_files:
-    - course.yaml
-- name: printing course information
-  ansible.builtin.debug:
-    msg: "Hello {{ COURSE }}, Course duration is: {{ DURATION }}. Tariner is {{ TRAINER }}"
+  - course.yaml
+  taskes:
+  - name: printing course information
+    ansible.builtin.debug:
+      msg: "Hello {{ COURSE }}, Course duration is: {{ DURATION }}. Tariner is {{ TRAINER }}"
