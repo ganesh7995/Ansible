@@ -13,5 +13,5 @@
   - name: print the greeting
     vars:
       GREEETING: "Hello from task"
-      ansible.builtin.debug:
-        msg: "{{ GREEETING }}"
+    ansible.builtin.debug:
+      msg: "{{ GREEETING }}"
