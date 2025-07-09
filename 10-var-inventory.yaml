@@ -1,12 +1,12 @@
 - name: variables from inventory
-  hosts: frontend
+  host: frontend
   tasks:
   - name: print course information
     ansible.builtin.debug:
       msg: "Hello {{ COURSE }}, Course duration is: {{ DURATION }}. Tariner is {{ TRAINER }}"
 
 - name: variables from inventory
-  hosts: Backend
+  host: Backend
   tasks:
   - name: print course information
     ansible.builtin.debug:
