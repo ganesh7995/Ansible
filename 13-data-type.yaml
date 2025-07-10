@@ -1,0 +1,18 @@
+- name: ansible datatypes
+  host: local
+  connection: local
+  vars:
+    COURSE: "DevOps'
+    DURATION: 120 #This is number
+    TO_LIVE: true # boolean
+    TOOLS: # This is list 
+    - linux
+    - shell
+    - ansible
+    CONCEPTS: # this is key:pair Values like map or dictionary or oblect
+      CI: jenkins
+      SCRIPT: "shell,ansible,terraform"
+  tasks:
+  - name: print datatypes
+    ansible.builtin.debug:
+      msg: "Course Name is {{ COURSE }} and Course duration is {{ DURATION }} the sessions are live is that {{ TO_LIVE }} Which tools are using inthis course is {{ TOOLS }} concepts are covered are {{ CONCEPTS }}"
