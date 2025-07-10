@@ -1,10 +1,8 @@
 - name: condtions demo
   hosts: local
   connection: local
-  vars_prompt:
-  - name: NUMBER
-    prompt: please enter number
-    private: false
+  vars:
+    NUMBER: 77
   tasks:
   - name: please print if number is less than or equals to 100
     ansible.builtin.debug:
