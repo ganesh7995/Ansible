@@ -5,11 +5,11 @@
     COURSE: "DevOps"
     DURATION: 120 #This is number
     TO_LIVE: true # boolean
-    TOOLS: # This is list 
+    TOOLS: # This is list []
     - linux
     - shell
     - ansible
-    CONCEPTS: # this is key:pair Values like map or dictionary or oblect
+    CONCEPTS: # this is key:pair Values like map or dictionary or oblect {}
       CI: jenkins
       SCRIPTING: "Shell, Ansible, Terraform, Python"
   tasks:
