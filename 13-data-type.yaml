@@ -2,7 +2,7 @@
   host: local
   connection: local
   vars:
-    COURSE: "DevOps'
+    COURSE: "DevOps"
     DURATION: 120 #This is number
     TO_LIVE: true # boolean
     TOOLS: # This is list 
@@ -11,7 +11,7 @@
     - ansible
     CONCEPTS: # this is key:pair Values like map or dictionary or oblect
       CI: jenkins
-      SCRIPTING: "Shell, Ansible, Terraform, Python"
+      SCRIPTING: " Shell, Ansible, Terraform, Python "
   tasks:
   - name: print datatypes
     ansible.builtin.debug:
