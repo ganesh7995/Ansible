@@ -11,7 +11,7 @@
     - ansible
     CONCEPTS: # this is key:pair Values like map or dictionary or oblect
       CI: jenkins
-      SCRIPT: " shell, ansible, terraform, Python "
+      SCRIPTING: "Shell, Ansible, Terraform, Python"
   tasks:
   - name: print datatypes
     ansible.builtin.debug:
