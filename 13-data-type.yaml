@@ -1,5 +1,5 @@
 - name: ansible datatypes
-  host: local
+  hosts: local
   connection: local
   vars:
     COURSE: "DevOps"
@@ -11,7 +11,7 @@
     - ansible
     CONCEPTS: # this is key:pair Values like map or dictionary or oblect
       CI: jenkins
-      SCRIPTING: " Shell, Ansible, Terraform, Python "
+      SCRIPTING: "Shell, Ansible, Terraform, Python"
   tasks:
   - name: print datatypes
     ansible.builtin.debug:
