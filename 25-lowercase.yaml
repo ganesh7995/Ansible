@@ -1,0 +1,9 @@
+- name: upper case
+  hosts: local
+  connection: local
+  vars:
+    name: Gunda Ganesh
+  tasks:
+  - name: print name in upper case letters
+    ansible.builtin.debug:
+      msg: "Hello,{{ name | lower}}"
