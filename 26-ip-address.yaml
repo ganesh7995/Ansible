@@ -1,0 +1,9 @@
+- name: check Ip is valid or not
+  hosts: local
+  connection: local
+  vars:
+    ip: "560.390.450.570"
+  tasks:
+  - name: check Ip is valid or not
+    ansible.builtin.debug:
+      msg: "IpAddrss is ,{{ ip | ansible.utils.ipaddr }}"
