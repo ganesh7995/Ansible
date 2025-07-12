@@ -19,4 +19,4 @@
         - {'key': 'duration', 'value': '10 hrs'}
         - {'key': 'trainer', 'value': 'Ganesh'}
     ansible.builtin.debug:
-      msg: "Course info...{{ course | item2dict }}"
+      msg: "Course info...{{ course | items2dict }}"
