@@ -1,0 +1,22 @@
+- name: functions
+  hosts: local
+  connection: local
+  vars:
+    persons: "Ganesh,pradeep,Naresh"
+  tasks:
+  - name: check undefined variable
+    ansible.builtin.debug:
+      msg: "Hello, {{ persons | default('Ganesh')}}"
+
+  - name: print person names
+    ansible.builtin.debug:
+      msg: "Hello, {{ persons | split(',') }}"
+
+  - name: convert map to list
+    vars:
+      course:
+        - {'key': 'name', 'value': 'ansible'}
+        - {'key': 'duration', 'value': '10 hrs'}
+        - {'key': 'trainer', 'value': 'Ganesh'}
+    ansible.builtin.debug:
+      msg: "Course info...{{ course | item2dict }}"
