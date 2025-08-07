@@ -1,0 +1,6 @@
+- name: user creation
+  hosts: local
+  become: local
+  tasks:
+  - name: roboshop user exist or not
+    and.builtin.command: id roboshop
