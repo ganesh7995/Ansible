@@ -12,4 +12,4 @@ filters:
 hostnames:
   - private-ip-address
 compose:
-  ansible_host: private_ip_address
+  ansible_host: _ip_address
